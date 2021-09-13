@@ -13,26 +13,28 @@
 		"prettier:check": "prettier --check --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@fontsource/source-sans-pro": "^4.5.0",
+		"@fontsource/source-serif-pro": "^4.5.0",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.31.0",
 		"@typescript-eslint/parser": "^4.31.0",
 		"@vanilla-extract/css": "^1.5.1",
+		"@vanilla-extract/css-utils": "^0.1.1",
+		"@vanilla-extract/vite-plugin": "^2.0.2",
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.2.1",
 		"husky": "^7.0.2",
 		"prettier": "~2.2.1",
 		"prettier-plugin-svelte": "^2.4.0",
+		"sharp": "^0.29.1",
 		"svelte": "^3.42.5",
 		"svelte-check": "^2.2.6",
 		"svelte-preprocess": "^4.9.4",
 		"tslib": "^2.3.1",
-		"typescript": "^4.4.3"
+		"typescript": "^4.4.3",
+		"vanilla-lazyload": "^17.4.0",
+		"vite-imagetools": "^3.6.8"
 	},
-	"type": "module",
-	"dependencies": {
-		"@fontsource/source-sans-pro": "^4.5.0",
-		"@fontsource/source-serif-pro": "^4.5.0",
-		"@vanilla-extract/vite-plugin": "^2.0.2"
-	}
+	"type": "module"
 }

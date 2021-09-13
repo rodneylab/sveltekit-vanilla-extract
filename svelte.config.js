@@ -1,5 +1,6 @@
 import preprocess from 'svelte-preprocess';
 import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
+import { imagetools } from 'vite-imagetools';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -14,7 +15,7 @@ const config = {
 			define: {
 				'process.env.VITE_BUILD_TIME': JSON.stringify(new Date().toISOString())
 			},
-			plugins: [vanillaExtractPlugin()]
+			plugins: [vanillaExtractPlugin(), imagetools({ force: true })]
 		}
 	}
 };
