@@ -13,7 +13,6 @@
 	import '$lib/styles/styles.css';
 	import '@fontsource/source-sans-pro/400.css';
 	import '@fontsource/source-serif-pro/400.css';
-	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
 	import {
 		abstractText,
