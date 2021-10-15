@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { browser } from '$app/env';
 	import blakeSrc from '$lib/assets/blake.jpg?w=200';
 	import blakeSrcsetWebp from '$lib/assets/blake.jpg?w=400;200&format=webp&srcset';
