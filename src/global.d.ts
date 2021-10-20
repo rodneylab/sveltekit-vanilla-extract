@@ -2,7 +2,7 @@
 import type { ILazyLoadInstance } from 'vanilla-lazyload';
 
 export declare global {
-	interface Document {
-		lazyloadInstance: ILazyLoadInstance;
-	}
+  interface Document {
+    lazyloadInstance: ILazyLoadInstance;
+  }
 }

@@ -1,10 +1,12 @@
 import { browser } from '$app/env';
 import { writable } from 'svelte/store';
 
-export const theme = writable<string>(browser ? localStorage.theme || 'summer' : 'summer');
+export const theme = writable<string>(
+  browser ? window.localStorage.getItem('theme') || 'summer' : 'summer',
+);
 
 theme.subscribe((value) => {
-	if (browser) {
-		localStorage.theme = value;
-	}
+  if (browser) {
+    window.localStorage.setItem('theme', value);
+  }
 });
