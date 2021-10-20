@@ -9,7 +9,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.1.0
   '@vanilla-extract/css': ^1.6.2
   '@vanilla-extract/css-utils': ^0.1.1
-  '@vanilla-extract/vite-plugin': 2.1.3
+  '@vanilla-extract/vite-plugin': 3.0.0
   eslint: ^8.0.1
   eslint-config-prettier: ^8.3.0
   eslint-plugin-svelte3: ^3.2.1
@@ -29,12 +29,12 @@ devDependencies:
   '@fontsource/source-sans-pro': 4.5.0
   '@fontsource/source-serif-pro': 4.5.0
   '@sveltejs/adapter-static': 1.0.0-next.21
-  '@sveltejs/kit': 1.0.0-next.186_svelte@3.44.0
+  '@sveltejs/kit': 1.0.0-next.187_svelte@3.44.0
   '@typescript-eslint/eslint-plugin': 5.1.0_5c3e9dad3ab5199adbc8541e4d2d5a4f
   '@typescript-eslint/parser': 5.1.0_eslint@8.0.1+typescript@4.4.4
   '@vanilla-extract/css': 1.6.2
   '@vanilla-extract/css-utils': 0.1.1
-  '@vanilla-extract/vite-plugin': 2.1.3
+  '@vanilla-extract/vite-plugin': 3.0.0
   eslint: 8.0.1
   eslint-config-prettier: 8.3.0_eslint@8.0.1
   eslint-plugin-svelte3: 3.2.1_eslint@8.0.1+svelte@3.44.0
@@ -129,8 +129,8 @@ packages:
     resolution: {integrity: sha512-B4+QoUVAaANKx+mHntG8SqF45zbj3Ct4Akg/cGauo6COyfKZRhO5OsMa+wPuT2TKJBZC4eEDK0p+p9nyQBkxKQ==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.186_svelte@3.44.0:
-    resolution: {integrity: sha512-LFv2q2cToreUcGp0B+5uVfu0qMvQiw3hsyELnUwxPP/lpUbcmYjgQmwivjRNTdudCqZt7ng3Ehy7UDILbBhExQ==}
+  /@sveltejs/kit/1.0.0-next.187_svelte@3.44.0:
+    resolution: {integrity: sha512-ImB7UYO1vNhkshw6OKymE1TpWGqmjAH5HCToBi2l8RMdPZhkwdWFCoqz65l1UssNltiIktPzegKeyy6E5w+XaA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -331,8 +331,8 @@ packages:
     resolution: {integrity: sha512-ABrFJGSmF7a1M+eDTsIeAErPhIeRyBY3ypyLQPc4bUVEK1mvF7F2gx4fTP81pm12bkS0GhjSJtM854lcPWhB+w==}
     dev: true
 
-  /@vanilla-extract/vite-plugin/2.1.3:
-    resolution: {integrity: sha512-e6kk7J082x79svYmR6/IBNCsZTII3Qq2jv+Di9d4SjqbDi8PbHz2CJhXauN0YJeb9ArgQNlumw7ICkBApqALgw==}
+  /@vanilla-extract/vite-plugin/3.0.0:
+    resolution: {integrity: sha512-6QwDyBRWLa+9kdFmUmb445VyqNpu909eqTgGpylINaVBqyQaH9QRsfNwv5gvAwYJoH5mfPYHouRkOlA5gfhnMQ==}
     peerDependencies:
       vite: ^2.2.3
     dependencies:
