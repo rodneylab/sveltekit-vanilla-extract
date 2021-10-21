@@ -13,7 +13,7 @@
 
 [![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/rodneylab/sveltekit-vanilla-extract)
 
-Demo code for getting started with vanilla-extract in SvelteKit. The code accompanies the <a aria-label="Open Rodney Lab blog post on using vanilla extract with Svelte Kit" href="https://rodneylab.com/using-vanilla-extract-sveltekit/">post on using vanilla-extract with SvelteKit</a>. If you have any questions, please drop a comment at the bottom of that page.
+Demo code for getting started with vanilla-extract in SvelteKit. The code accompanies the <a aria-label="Open Rodney Lab blog post on using vanilla extract with Svelte Kit" href="https://rodneylab.com/using-vanilla-extract-sveltekit/">post on using vanilla-extract with SvelteKit</a>. If you have any questions, please drop a comment at the bottom of that page.  You can see the full working example at <a aria-label="Open Svelte Kit vanilla-extract demo site" href="https://sveltekit-vanilla-extract.rodneylab.com/">sveltekit-vanilla-extract.rodneylab.com/</a>.
 
 ## Building and previewing the site
 
