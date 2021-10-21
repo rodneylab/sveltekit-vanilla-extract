@@ -16,7 +16,7 @@ specifiers:
   husky: ^7.0.4
   prettier: ~2.4.1
   prettier-plugin-svelte: ^2.4.0
-  sharp: ^0.29.1
+  sharp: 0.28.2
   svelte: ^3.44.0
   svelte-check: ^2.2.7
   svelte-preprocess: ^4.9.8
@@ -41,7 +41,7 @@ devDependencies:
   husky: 7.0.4
   prettier: 2.4.1
   prettier-plugin-svelte: 2.4.0_prettier@2.4.1+svelte@3.44.0
-  sharp: 0.29.1
+  sharp: 0.28.2
   svelte: 3.44.0
   svelte-check: 2.2.7_svelte@3.44.0
   svelte-preprocess: 4.9.8_svelte@3.44.0+typescript@4.4.4
@@ -539,13 +539,6 @@ packages:
     resolution: {integrity: sha512-aBl7dZI9ENN6fUGC7mWpMTPNHmWUSNan9tuWN6ahh5ZLNk9baLJOnSMlrQkHcrfFgz2/RigjUVAjdx36VcemKA==}
     dependencies:
       color-convert: 1.9.3
-      color-string: 1.6.0
-    dev: true
-
-  /color/4.0.1:
-    resolution: {integrity: sha512-rpZjOKN5O7naJxkH2Rx1sZzzBgaiWECc6BYXjeCE6kF0kcASJYbUq02u7JqIHwCb/j3NhV+QhRL2683aICeGZA==}
-    dependencies:
-      color-convert: 2.0.1
       color-string: 1.6.0
     dev: true
 
@@ -1419,10 +1412,6 @@ packages:
     resolution: {integrity: sha512-mmcei9JghVNDYydghQmeDX8KoAm0FAiYyIcUt/N4nhyAipB17pllZQDOJD2fotxABnt4Mdz+dKTO7eftLg4d0A==}
     dev: true
 
-  /node-addon-api/4.2.0:
-    resolution: {integrity: sha512-eazsqzwG2lskuzBqCGPi7Ac2UgOoMz8JVOXVhTvvPDYhthvNpefx8jWD8Np7Gv+2Sz0FlPWZk0nJV0z598Wn8Q==}
-    dev: true
-
   /normalize-path/3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
@@ -1735,8 +1724,8 @@ packages:
     resolution: {integrity: sha1-BF+XgtARrppoA93TgrJDkrPYkPc=}
     dev: true
 
-  /sharp/0.28.3:
-    resolution: {integrity: sha512-21GEP45Rmr7q2qcmdnjDkNP04Ooh5v0laGS5FDpojOO84D1DJwUijLiSq8XNNM6e8aGXYtoYRh3sVNdm8NodMA==}
+  /sharp/0.28.2:
+    resolution: {integrity: sha512-CdmySbsQVe/+ZM2j9zzvUfWumM0L0iHj1kpxJMFuyWvSuBULebvGCdOLb1f5vbbBrIGroX714Fx1wiWaKniz4A==}
     engines: {node: '>=10'}
     requiresBuild: true
     dependencies:
@@ -1750,14 +1739,14 @@ packages:
       tunnel-agent: 0.6.0
     dev: true
 
-  /sharp/0.29.1:
-    resolution: {integrity: sha512-DpgdAny9TuS+oWCQ7MRS8XyY9x6q1+yW3a5wNx0J3HrGuB/Jot/8WcT+lElHY9iJu2pwtegSGxqMaqFiMhs4rQ==}
-    engines: {node: '>=12.13.0'}
+  /sharp/0.28.3:
+    resolution: {integrity: sha512-21GEP45Rmr7q2qcmdnjDkNP04Ooh5v0laGS5FDpojOO84D1DJwUijLiSq8XNNM6e8aGXYtoYRh3sVNdm8NodMA==}
+    engines: {node: '>=10'}
     requiresBuild: true
     dependencies:
-      color: 4.0.1
+      color: 3.2.1
       detect-libc: 1.0.3
-      node-addon-api: 4.2.0
+      node-addon-api: 3.2.1
       prebuild-install: 6.1.4
       semver: 7.3.5
       simple-get: 3.1.0
