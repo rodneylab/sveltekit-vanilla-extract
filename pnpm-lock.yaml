@@ -7,13 +7,13 @@ specifiers:
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': ^5.1.0
   '@typescript-eslint/parser': ^5.1.0
-  '@vanilla-extract/css': ^1.6.2
+  '@vanilla-extract/css': ^1.6.3
   '@vanilla-extract/css-utils': ^0.1.1
   '@vanilla-extract/vite-plugin': 3.0.0
   eslint: ^8.0.1
   eslint-config-prettier: ^8.3.0
   eslint-plugin-svelte3: ^3.2.1
-  husky: ^7.0.2
+  husky: ^7.0.4
   prettier: ~2.4.1
   prettier-plugin-svelte: ^2.4.0
   sharp: ^0.29.1
@@ -32,13 +32,13 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.187_svelte@3.44.0
   '@typescript-eslint/eslint-plugin': 5.1.0_5c3e9dad3ab5199adbc8541e4d2d5a4f
   '@typescript-eslint/parser': 5.1.0_eslint@8.0.1+typescript@4.4.4
-  '@vanilla-extract/css': 1.6.2
+  '@vanilla-extract/css': 1.6.3
   '@vanilla-extract/css-utils': 0.1.1
   '@vanilla-extract/vite-plugin': 3.0.0
   eslint: 8.0.1
   eslint-config-prettier: 8.3.0_eslint@8.0.1
   eslint-plugin-svelte3: 3.2.1_eslint@8.0.1+svelte@3.44.0
-  husky: 7.0.2
+  husky: 7.0.4
   prettier: 2.4.1
   prettier-plugin-svelte: 2.4.0_prettier@2.4.1+svelte@3.44.0
   sharp: 0.29.1
@@ -300,8 +300,8 @@ packages:
     resolution: {integrity: sha512-9fDV8IhSfzgDd9Z+64jVcS38S2dVc6c1eOd+hgO8zPMRba6rEB8kEjg5+AQ3xPCdzl1m8olqFHnfQRNOn1OXuA==}
     dev: true
 
-  /@vanilla-extract/css/1.6.2:
-    resolution: {integrity: sha512-khWHNQ0KLLn68jt54Xp2GqKzViyBE0xGU8dlv9JVqOlTX06FG7MqDL0FbZW1/nvOGcHZv94WZzp6cayk+rjokA==}
+  /@vanilla-extract/css/1.6.3:
+    resolution: {integrity: sha512-Jp2bRQfN7O0PY//pnfnjMENXexow7okwHlbQW3nwv+8uFkUVFtjc1+aZcNklYu5fZjGWDFLJhDLHShDN0XmYFg==}
     dependencies:
       '@emotion/hash': 0.8.0
       '@vanilla-extract/private': 1.0.1
@@ -317,7 +317,7 @@ packages:
   /@vanilla-extract/integration/1.4.3:
     resolution: {integrity: sha512-Jax0lADpx8LYwwOyiob9+koGm3H4xSMkWOD+pGTeI87YquALUcp9tqlhZOSPX3X5Jdlpyw2Gxxmo6wa47UEWHA==}
     dependencies:
-      '@vanilla-extract/css': 1.6.2
+      '@vanilla-extract/css': 1.6.3
       chalk: 4.1.2
       esbuild: 0.11.23
       eval: 0.1.6
@@ -1170,8 +1170,8 @@ packages:
       function-bind: 1.1.1
     dev: true
 
-  /husky/7.0.2:
-    resolution: {integrity: sha512-8yKEWNX4z2YsofXAMT7KvA1g8p+GxtB1ffV8XtpAEGuXNAbCV5wdNKH+qTpw8SM9fh4aMPDR+yQuKfgnreyZlg==}
+  /husky/7.0.4:
+    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
     engines: {node: '>=12'}
     hasBin: true
     dev: true
@@ -1514,8 +1514,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /picocolors/0.2.1:
-    resolution: {integrity: sha512-cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==}
+  /picocolors/1.0.0:
+    resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
 
   /picomatch/2.3.0:
@@ -1523,12 +1523,12 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /postcss/8.3.9:
-    resolution: {integrity: sha512-f/ZFyAKh9Dnqytx5X62jgjhhzttjZS7hMsohcI7HEI5tjELX/HxCy3EFhsRxyzGvrzFF+82XPvCS8T9TFleVJw==}
+  /postcss/8.3.10:
+    resolution: {integrity: sha512-YYfvfUdWx+ECpr5Hgc6XRfsaux8LksL5ey8qTtWiuRXOpOF1YYMwAySdh0nSmwhZAFvvJ6rgiIkKVShu4x2T1Q==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.1.30
-      picocolors: 0.2.1
+      picocolors: 1.0.0
       source-map-js: 0.6.2
     dev: true
 
@@ -2101,7 +2101,7 @@ packages:
         optional: true
     dependencies:
       esbuild: 0.13.8
-      postcss: 8.3.9
+      postcss: 8.3.10
       resolve: 1.20.0
       rollup: 2.58.0
     optionalDependencies:
