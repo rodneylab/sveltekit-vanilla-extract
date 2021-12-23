@@ -2,7 +2,7 @@
   "name": "sveltekit-vanilla-extract",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev --port 3030",
+    "dev": "svelte-kit dev --port 3000",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
@@ -14,6 +14,7 @@
     "svelte-check": "svelte-check --fail-on-hints"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^15.0.0",
     "@fontsource/source-sans-pro": "^4.5.1",
     "@fontsource/source-serif-pro": "^4.5.0",
     "@sveltejs/adapter-static": "^1.0.0-next.22",
@@ -36,6 +37,7 @@
     "tslib": "^2.3.1",
     "typescript": "^4.5.4",
     "vanilla-lazyload": "^17.5.0",
+    "vite": "^2.7.6",
     "vite-imagetools": "^3.9.0"
   },
   "type": "module"
