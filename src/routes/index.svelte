@@ -17,7 +17,7 @@
   import '@fontsource/source-serif-pro/400.css';
   import { sineInOut } from 'svelte/easing';
   import { fade, fly } from 'svelte/transition';
-  import { abstractText, button, dateText, heading, main, speakerName } from './index.css';
+  import { abstractText, button, dateText, heading, main, speakerName } from './index-styles.css';
 
   const sources = [blakeSrc, riverSrc];
   const sourceSets = [blakeSrcset, riverSrcset];

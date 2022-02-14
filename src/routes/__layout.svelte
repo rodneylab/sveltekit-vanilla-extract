@@ -5,7 +5,7 @@
   import { summerTheme } from '$lib/styles/themes/summerTheme.css';
   import { winterTheme } from '$lib/styles/themes/winterTheme.css';
   import lazyload from 'vanilla-lazyload';
-  import { container, containerMain, header, themeButton } from './layout.css';
+  import { container, containerMain, header, themeButton } from './layout-styles.css';
 
   if (browser && !document.lazyloadInstance) {
     document.lazyloadInstance = new lazyload();
