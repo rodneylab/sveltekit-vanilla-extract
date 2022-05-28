@@ -6,3 +6,10 @@ export declare global {
     lazyloadInstance: ILazyLoadInstance;
   }
 }
+
+// types for vite-imagetools imports
+export declare global {
+  export module '*.jpg?w=200';
+  export module '*.jpg?w=400;200&format=webp&srcset';
+  export module '*.jpg?w=400;200&srcset';
+}
