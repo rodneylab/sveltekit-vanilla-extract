@@ -1,32 +1,40 @@
-import { createVar } from '@vanilla-extract/css';
+import { createGlobalTheme, createVar } from '@vanilla-extract/css';
 
 export const desktopBreakpoint = createVar();
-
-export const fontFamilyHeading = createVar();
-export const fontFamilyBody = createVar();
-
-export const fontSizeRoot = createVar();
-export const fontSize0 = createVar();
-export const fontSize1 = createVar();
-export const fontSize2 = createVar();
-export const fontSize3 = createVar();
-export const fontSize4 = createVar();
-export const fontSize5 = createVar();
-export const fontSize6 = createVar();
-export const fontSize7 = createVar();
-
-export const fontWeightBlack = createVar();
-export const fontWeightBold = createVar();
-
 export const lineHeightRelaxed = createVar();
 
-export const spacingPx = createVar();
-export const spacing0 = createVar();
-export const spacing1 = createVar();
-export const spacing2 = createVar();
-export const spacing3 = createVar();
-export const spacing4 = createVar();
-export const spacing5 = createVar();
-export const spacing6 = createVar();
-export const spacing8 = createVar();
-export const spacing12 = createVar();
+export const vars = createGlobalTheme(':root', {
+  spacing: {
+    spacingPx: '1px',
+    spacing0: '0',
+    spacing1: '0.25rem',
+    spacing2: '0.5rem',
+    spacing3: '0.75rem',
+    spacing4: '1rem',
+    spacing5: '1.25rem',
+    spacing6: '1.5rem',
+    spacing8: '2.0rem',
+    spacing12: '3.0rem',
+  },
+  font: {
+    family: {
+      fontFamilyBody: 'Source Sans Pro',
+      fontFamilyHeading: 'Source Serif Pro',
+    },
+    size: {
+      fontSizeRoot: '16px',
+      fontSize0: '0.8rem',
+      fontSize1: '1rem',
+      fontSize2: '1.25rem',
+      fontSize3: '1.563rem',
+      fontSize4: '1.953rem',
+      fontSize5: '2.441rem',
+      fontSize6: '3.052rem',
+      fontSize7: '3.815rem',
+    },
+    weight: {
+      fontWeightBold: '700',
+      fontWeightBlack: '900',
+    },
+  },
+});

@@ -1,18 +1,16 @@
 import { themeVars } from '$lib/styles/themes/theme.css';
-import {
-  fontFamilyHeading,
-  fontSize2,
-  fontSize4,
-  fontSize5,
-  fontWeightBold,
-  lineHeightRelaxed,
-  spacing0,
-  spacing2,
-  spacing4,
-  spacing6,
-} from '$lib/styles/vars.css';
+import { lineHeightRelaxed, vars } from '$lib/styles/vars.css';
 import { style } from '@vanilla-extract/css';
 import { calc } from '@vanilla-extract/css-utils';
+
+const {
+  font: {
+    family: { fontFamilyHeading },
+    size: { fontSize2, fontSize4, fontSize5 },
+    weight: { fontWeightBold },
+  },
+  spacing: { spacing0, spacing2, spacing4, spacing6 },
+} = vars;
 
 export const main = style({
   background: themeVars.colour.primary,

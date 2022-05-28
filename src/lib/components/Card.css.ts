@@ -1,6 +1,10 @@
 import { themeVars } from '$lib/styles/themes/theme.css';
-import { spacing3, spacing4, spacing6, spacing8 } from '$lib/styles/vars.css';
+import { vars } from '$lib/styles/vars.css';
 import { style } from '@vanilla-extract/css';
+
+const {
+  spacing: { spacing3, spacing4, spacing6, spacing8 },
+} = vars;
 
 export const container = style({
   display: 'flex',
@@ -12,7 +16,7 @@ export const content = style({
   flexDirection: 'column',
   alignItems: 'center',
   width: '60%',
-  borderRadius: [spacing3],
+  borderRadius: spacing3,
   margin: [spacing6, 'auto'],
   padding: [spacing4, spacing8],
   '@media': {

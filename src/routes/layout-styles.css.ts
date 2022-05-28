@@ -1,6 +1,10 @@
 import { themeVars } from '$lib/styles/themes/theme.css';
-import { spacing12, spacing2, spacing4, spacing8 } from '$lib/styles/vars.css';
+import { vars } from '$lib/styles/vars.css';
 import { style } from '@vanilla-extract/css';
+
+const {
+  spacing: { spacing12, spacing2, spacing4, spacing8 },
+} = vars;
 
 export const container = style({
   display: 'flex',
@@ -22,7 +26,7 @@ export const header = style({
 export const themeButton = style({
   marginLeft: 'auto',
   padding: [spacing2, spacing4],
-  borderRadius: [spacing8],
+  borderRadius: spacing8,
   background: themeVars.colour.dark,
   borderStyle: 'solid',
   borderColor: themeVars.colour.light,
