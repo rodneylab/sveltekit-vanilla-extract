@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "svelte-kit dev --port 3000",
     "build": "svelte-kit build",
-    "preview": "svelte-kit preview --port 3000",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "preview": "svelte-kit preview --port 3030",
+    "check": "svelte-check --tsconfig ./tsconfig.json --fail-on-hints",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .prettierignore --write --plugin-search-dir=. .",
