@@ -33,7 +33,7 @@
     "husky": "^8.0.1",
     "prettier": "~2.7.1",
     "prettier-plugin-svelte": "^2.7.0",
-    "sharp": "0.30",
+    "sharp": ">=0.30.5",
     "svelte": "^3.48.0",
     "svelte-check": "^2.7.2",
     "svelte-preprocess": "^4.10.7",
