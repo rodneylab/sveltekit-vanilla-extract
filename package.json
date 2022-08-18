@@ -1,57 +1,57 @@
 {
-  "name": "sveltekit-vanilla-extract",
-  "version": "0.0.1",
-  "license": "BSD-3-Clause",
-  "description": "Using vanilla-extract with SvelteKit: how you can make zero-runtime stylesheets with the new TypeScript friendly preprocessor in Svelte.",
-  "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json --fail-on-hints",
-    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-    "lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-    "format": "prettier --ignore-path .prettierignore --write --plugin-search-dir=. .",
-    "prepare": "husky install",
-    "prettier:check": "prettier --check --plugin-search-dir=. .",
-    "svelte-check": "svelte-check --fail-on-hints"
-  },
-  "devDependencies": {
-    "@commitlint/config-conventional": "^17.0.2",
-    "@fontsource/source-sans-pro": "^4.5.10",
-    "@fontsource/source-serif-pro": "^4.5.8",
-    "@sveltejs/adapter-static": "^1.0.0-next.34",
-    "@sveltejs/kit": "next",
-    "@typescript-eslint/eslint-plugin": "^5.29.0",
-    "@typescript-eslint/parser": "^5.29.0",
-    "@vanilla-extract/css": "^1.7.2",
-    "@vanilla-extract/css-utils": "^0.1.2",
-    "@vanilla-extract/vite-plugin": "3.3.0",
-    "commitlint": "^17.0.2",
-    "eslint": "^8.18.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-svelte3": "^4.0.0",
-    "husky": "^8.0.1",
-    "prettier": "~2.7.1",
-    "prettier-plugin-svelte": "^2.7.0",
-    "sharp": ">=0.30.5",
-    "svelte": "^3.48.0",
-    "svelte-check": "^2.7.2",
-    "svelte-preprocess": "^4.10.7",
-    "tslib": "^2.4.0",
-    "typescript": "^4.7.4",
-    "vanilla-lazyload": "^17.8.2",
-    "vite": "^3.0.8",
-    "vite-imagetools": "^4.0.4"
-  },
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rodneylab/sveltekit-vanilla-extract"
-  },
-  "bugs": {
-    "url": "https://github.com/rodneylab/sveltekit-vanilla-extract/issues"
-  },
-  "peerDependencies": {
-    "vite": "^3.0.8"
-  }
+	"name": "sveltekit-vanilla-extract",
+	"version": "0.0.1",
+	"license": "BSD-3-Clause",
+	"description": "Using vanilla-extract with SvelteKit: how you can make zero-runtime stylesheets with the new TypeScript friendly preprocessor in Svelte.",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json --fail-on-hints",
+		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+		"format": "prettier --ignore-path .prettierignore --write --plugin-search-dir=. .",
+		"prepare": "husky install",
+		"prettier:check": "prettier --check --plugin-search-dir=. .",
+		"svelte-check": "svelte-check --fail-on-hints"
+	},
+	"devDependencies": {
+		"@commitlint/config-conventional": "^17.0.2",
+		"@fontsource/source-sans-pro": "^4.5.10",
+		"@fontsource/source-serif-pro": "^4.5.8",
+		"@sveltejs/adapter-static": "^1.0.0-next.34",
+		"@sveltejs/kit": "next",
+		"@typescript-eslint/eslint-plugin": "^5.29.0",
+		"@typescript-eslint/parser": "^5.29.0",
+		"@vanilla-extract/css": "^1.7.2",
+		"@vanilla-extract/css-utils": "^0.1.2",
+		"@vanilla-extract/vite-plugin": "3.3.0",
+		"commitlint": "^17.0.2",
+		"eslint": "^8.18.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"husky": "^8.0.1",
+		"prettier": "~2.7.1",
+		"prettier-plugin-svelte": "^2.7.0",
+		"sharp": ">=0.30.5",
+		"svelte": "^3.48.0",
+		"svelte-check": "^2.7.2",
+		"svelte-preprocess": "^4.10.7",
+		"tslib": "^2.4.0",
+		"typescript": "^4.7.4",
+		"vanilla-lazyload": "^17.8.2",
+		"vite": "^3.0.8",
+		"vite-imagetools": "^4.0.4"
+	},
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rodneylab/sveltekit-vanilla-extract"
+	},
+	"bugs": {
+		"url": "https://github.com/rodneylab/sveltekit-vanilla-extract/issues"
+	},
+	"peerDependencies": {
+		"vite": "^3.0.8"
+	}
 }

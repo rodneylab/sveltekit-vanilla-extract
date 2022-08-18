@@ -1,16 +1,16 @@
 [
-  {
-    "speaker": "Blake Shakespeare",
-    "title": "Moving your React site to SvelteKit",
-    "date": "Friday, 6pm",
-    "abstract": "Learn from my experience in transitioning my site from React to SvelteKit: what I got right, what I would do differently going forward.",
-    "profileImageBase64": "data:image/jpeg;base64,/9j/2wBDAAwREhMUFBUUFBofGhUaHiIcGhohKC4jJB4hMzg/PTouKC5CRFpMPi5XRTc3VmBRVlpgZmRkQklveXFmeFtlaWf/2wBDAQgMDQwNDw8PDxFgEBIaVmBaYFpgY2NjY2BjYGBiY2NjY2NjY2NjY2NjY2JjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFBv/EABQBAQAAAAAAAAAAAAAAAAAAAAX/2gAMAwEAAhADEAAAACwt2yY//8QAHxABAAEDBAMAAAAAAAAAAAAAAQACAxMREkGBUVJi/9oACAEBAAE/AG1VgA2jUaJ9czBf9ZSGa9096TaeCf/EABkRAAEFAAAAAAAAAAAAAAAAAAEAAgMSIv/aAAgBAgEBPwBsRNtL/8QAGREAAgMBAAAAAAAAAAAAAAAAAhEAARQx/9oACAEDAQE/ANZhbXZ//9k="
-  },
-  {
-    "speaker": "River Costa",
-    "title": "Building out a GraphQL API in Svelte using Prisma and Supabase",
-    "date": "Saturday, 7pm",
-    "abstract": "See just how easy it can be to write an API using a modern framework and tooling.  I take you through step by step from pnpm init to production ready product. The future is SvelteKit!",
-    "profileImageBase64": "data:image/jpeg;base64,/9j/2wBDAAwREhMUFBUUFBofGhUaHiIcGhohKC4jJB4hMzg/PTouKC5CRFpMPi5XRTc3VmBRVlpgZmRkQklveXFmeFtlaWf/2wBDAQgMDQwNDw8PDxFgEBIaVmBaYFpgY2NjY2BjYGBiY2NjY2NjY2NjY2NjY2JjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgT/xAAVAQEBAAAAAAAAAAAAAAAAAAAFBv/aAAwDAQACEAMQAAAAoWEU8u//AP/EAB4QAAICAgIDAAAAAAAAAAAAAAECAxEABAUQIlHR/9oACAEBAAE/AN2bbSeSQNQUqqIl+S/cD2AaIvNtmHIRi/XX/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECAxL/2gAIAQIBAT8Ask3k/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQIAMf/aAAgBAwEBPwBVIl4b/9k="
-  }
+	{
+		"speaker": "Blake Shakespeare",
+		"title": "Moving your React site to SvelteKit",
+		"date": "Friday, 6pm",
+		"abstract": "Learn from my experience in transitioning my site from React to SvelteKit: what I got right, what I would do differently going forward.",
+		"profileImageBase64": "data:image/jpeg;base64,/9j/2wBDAAwREhMUFBUUFBofGhUaHiIcGhohKC4jJB4hMzg/PTouKC5CRFpMPi5XRTc3VmBRVlpgZmRkQklveXFmeFtlaWf/2wBDAQgMDQwNDw8PDxFgEBIaVmBaYFpgY2NjY2BjYGBiY2NjY2NjY2NjY2NjY2JjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFBv/EABQBAQAAAAAAAAAAAAAAAAAAAAX/2gAMAwEAAhADEAAAACwt2yY//8QAHxABAAEDBAMAAAAAAAAAAAAAAQACAxMREkGBUVJi/9oACAEBAAE/AG1VgA2jUaJ9czBf9ZSGa9096TaeCf/EABkRAAEFAAAAAAAAAAAAAAAAAAEAAgMSIv/aAAgBAgEBPwBsRNtL/8QAGREAAgMBAAAAAAAAAAAAAAAAAhEAARQx/9oACAEDAQE/ANZhbXZ//9k="
+	},
+	{
+		"speaker": "River Costa",
+		"title": "Building out a GraphQL API in Svelte using Prisma and Supabase",
+		"date": "Saturday, 7pm",
+		"abstract": "See just how easy it can be to write an API using a modern framework and tooling.  I take you through step by step from pnpm init to production ready product. The future is SvelteKit!",
+		"profileImageBase64": "data:image/jpeg;base64,/9j/2wBDAAwREhMUFBUUFBofGhUaHiIcGhohKC4jJB4hMzg/PTouKC5CRFpMPi5XRTc3VmBRVlpgZmRkQklveXFmeFtlaWf/2wBDAQgMDQwNDw8PDxFgEBIaVmBaYFpgY2NjY2BjYGBiY2NjY2NjY2NjY2NjY2JjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABgT/xAAVAQEBAAAAAAAAAAAAAAAAAAAFBv/aAAwDAQACEAMQAAAAoWEU8u//AP/EAB4QAAICAgIDAAAAAAAAAAAAAAECAxEABAUQIlHR/9oACAEBAAE/AN2bbSeSQNQUqqIl+S/cD2AaIvNtmHIRi/XX/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECAxL/2gAIAQIBAT8Ask3k/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQIAMf/aAAgBAwEBPwBVIl4b/9k="
+	}
 ]
