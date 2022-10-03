@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { browser } from '$app/env';
+	import { browser } from '$app/environment';
 	import { theme } from '$lib/shared/stores/theme';
 	import '$lib/styles/styles.css';
 	import { summerTheme } from '$lib/styles/themes/summerTheme.css';
