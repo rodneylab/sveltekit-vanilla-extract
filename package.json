@@ -50,5 +50,8 @@
 	},
 	"bugs": {
 		"url": "https://github.com/rodneylab/sveltekit-vanilla-extract/issues"
+	},
+	"peerDependencies": {
+		"vite": "^3.2.5"
 	}
 }
