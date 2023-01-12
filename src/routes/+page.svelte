@@ -58,7 +58,6 @@
 
 <svelte:head>
 	<title>SvelteKit Vanilla Extract: Course Registration Example</title>
-	<html lang="en-GB" />
 </svelte:head>
 {#key currentIndex}
 	<!-- svelte-ignore component-name-lowercase -->
