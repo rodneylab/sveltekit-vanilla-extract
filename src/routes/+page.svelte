@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
 	import blakeSrc from '$lib/assets/blake.jpg?w=200';
-	import blakeSrcsetWebp from '$lib/assets/blake.jpg?w=400;200&format=webp&srcset';
-	import blakeSrcset from '$lib/assets/blake.jpg?w=400;200&srcset';
+	import blakeSrcsetWebp from '$lib/assets/blake.jpg?w=400;200&format=webp&as=srcset';
+	import blakeSrcset from '$lib/assets/blake.jpg?w=400;200&as=srcset';
 	import riverSrc from '$lib/assets/river.jpg?w=200';
-	import riverSrcsetWebp from '$lib/assets/river.jpg?w=400;200&format=webp&srcset';
-	import riverSrcset from '$lib/assets/river.jpg?w=400;200&srcset';
+	import riverSrcsetWebp from '$lib/assets/river.jpg?w=400;200&format=webp&as=srcset';
+	import riverSrcset from '$lib/assets/river.jpg?w=400;200&as=srcset';
 	import Card from '$lib/components/Card.svelte';
 	import SpeakerPicture from '$lib/components/SpeakerPicture.svelte';
 	import talks from '$lib/data/talks.json';

@@ -10,6 +10,6 @@ export declare global {
 // types for vite-imagetools imports
 export declare global {
 	export module '*.jpg?w=200';
-	export module '*.jpg?w=400;200&format=webp&srcset';
-	export module '*.jpg?w=400;200&srcset';
+	export module '*.jpg?w=400;200&format=webp&as=srcset';
+	export module '*.jpg?w=400;200&as=srcset';
 }
