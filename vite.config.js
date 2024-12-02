@@ -16,12 +16,6 @@ const config = {
 	define: {
 		'process.env.VITE_BUILD_TIME': JSON.stringify(new Date().toISOString()),
 	},
-	ssr:
-		process.env.NODE_ENV === 'development'
-			? {}
-			: {
-					noExternal: ['@vanilla-extract/css', '@vanilla-extract/css/fileScope'],
-			  },
 };
 
 export default config;

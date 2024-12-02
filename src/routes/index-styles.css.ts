@@ -1,5 +1,5 @@
-import { themeVars } from '$lib/styles/themes/theme.css';
-import { lineHeightRelaxed, vars } from '$lib/styles/vars.css';
+import { themeVars } from '../lib/styles/themes/theme.css';
+import { lineHeightRelaxed, vars } from '../lib/styles/vars.css';
 import { style } from '@vanilla-extract/css';
 import { calc } from '@vanilla-extract/css-utils';
 
