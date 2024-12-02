@@ -7,26 +7,29 @@
 	import lazyload from 'vanilla-lazyload';
 	import { container, containerMain, header, themeButton } from './layout-styles.css';
 
+	let { children } = $props();
+
 	if (browser && !document.lazyloadInstance) {
 		document.lazyloadInstance = new lazyload();
 	}
 
-	$: themeIsSummer = $theme === 'summer';
-	$: currentTheme = themeIsSummer ? summerTheme : winterTheme;
-	$: buttonText = themeIsSummer ? 'Summer theme' : 'Winter theme';
-	$: buttonAriaLabel = themeIsSummer ? 'Switch to Winter theme' : 'Switch to Summer theme';
-	$: buttonStyle = `${themeButton} ${currentTheme}`;
+	let themeIsSummer = $derived($theme === 'summer');
+	let currentTheme = $derived(themeIsSummer ? summerTheme : winterTheme);
+	let buttonText = $derived(themeIsSummer ? 'Summer theme' : 'Winter theme');
+	let buttonAriaLabel = $derived(
+		themeIsSummer ? 'Switch to Winter theme' : 'Switch to Summer theme',
+	);
+	let buttonStyle = $derived(`${themeButton} ${currentTheme}`);
 </script>
 
 <div class={`${container} ${containerMain} ${currentTheme}`}>
-	<!-- svelte-ignore component-name-lowercase -->
 	<header class={header}>
 		<button
 			aria-label={buttonAriaLabel}
 			class={buttonStyle}
-			on:click={() => ($theme === 'summer' ? theme.set('winter') : theme.set('summer'))}
+			onclick={() => ($theme === 'summer' ? theme.set('winter') : theme.set('summer'))}
 			>{buttonText}</button
 		>
 	</header>
-	<slot />
+	{@render children?.()}
 </div>
