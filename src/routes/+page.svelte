@@ -23,17 +23,18 @@
 	const sourceSets = [blakeSrcset, riverSrcset];
 	const sourceSetsWebp = [blakeSrcsetWebp, riverSrcsetWebp];
 
-	$: themeIsSummer = $theme === 'summer';
-	$: currentTheme = themeIsSummer ? summerTheme : winterTheme;
-	$: abstractTextStyle = `${abstractText} ${currentTheme}`;
-	$: buttonStyle = `${button} ${currentTheme}`;
-	$: mainStyle = `${main} ${themeIsSummer ? summerTheme : winterTheme}`;
-	$: currentIndex = 0;
-	$: alt = `Picture of ${talks[currentIndex].speaker}`;
-	$: placeholder = talks[currentIndex].profileImageBase64;
-	$: src = sources[currentIndex];
-	$: srcset = sourceSets[currentIndex];
-	$: srcsetWebp = sourceSetsWebp[currentIndex];
+	let currentIndex = $state(0);
+
+	let themeIsSummer = $derived($theme === 'summer');
+	let currentTheme = $derived(themeIsSummer ? summerTheme : winterTheme);
+	let abstractTextStyle = $derived(`${abstractText} ${currentTheme}`);
+	let buttonStyle = $derived(`${button} ${currentTheme}`);
+	let mainStyle = $derived(`${main} ${themeIsSummer ? summerTheme : winterTheme}`);
+	let alt = $derived(`Picture of ${talks[currentIndex].speaker}`);
+	let placeholder = $derived(talks[currentIndex].profileImageBase64);
+	let src = $derived(sources[currentIndex]);
+	let srcset = $derived(sourceSets[currentIndex]);
+	let srcsetWebp = $derived(sourceSetsWebp[currentIndex]);
 
 	const transitionInterval = 5000;
 
@@ -60,7 +61,6 @@
 	<title>SvelteKit Vanilla Extract: Course Registration Example</title>
 </svelte:head>
 {#key currentIndex}
-	<!-- svelte-ignore component-name-lowercase -->
 	<main class={mainStyle} in:fly={{ duration: flyDuration, x: -100, easing: sineInOut }} out:fade>
 		<Card>
 			<h1 class={heading}>{talks[currentIndex].title}</h1>
@@ -68,7 +68,6 @@
 			<div class={speakerName}>{talks[currentIndex].speaker}</div>
 			<div class={abstractTextStyle}>{talks[currentIndex].abstract}</div>
 			<div class={dateText}>{talks[currentIndex].date}</div>
-			<!-- svelte-ignore component-name-lowercase -->
 			<button class={buttonStyle} type="button"> Book now!</button>
 		</Card>
 	</main>

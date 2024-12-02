@@ -6,11 +6,14 @@
 	import { winterTheme } from '$lib/styles/themes/winterTheme.css';
 	import { onMount } from 'svelte';
 
-	export let alt: string;
-	export let placeholder: string;
-	export let src: string;
-	export let srcset: string;
-	export let srcsetWebp: string;
+	let {
+		alt,
+		placeholder,
+		src,
+		srcset,
+		srcsetWebp,
+	}: { alt: string; placeholder: string; src: string; srcset: string; srcsetWebp: string } =
+		$props();
 
 	onMount(() => {
 		if (browser) {
@@ -18,8 +21,8 @@
 		}
 	});
 
-	$: themeIsSummer = $theme === 'summer';
-	$: imageStyle = `${image} ${themeIsSummer ? summerTheme : winterTheme}`;
+	let themeIsSummer = $derived($theme === 'summer');
+	let imageStyle = $derived(`${image} ${themeIsSummer ? summerTheme : winterTheme}`);
 
 	const sizes = '200px;';
 </script>
