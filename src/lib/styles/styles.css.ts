@@ -1,4 +1,4 @@
-import { desktopBreakpoint, lineHeightRelaxed, vars } from '$lib/styles/vars.css';
+import { desktopBreakpoint, lineHeightRelaxed, vars } from './vars.css';
 import { globalFontFace, globalStyle } from '@vanilla-extract/css';
 
 const {

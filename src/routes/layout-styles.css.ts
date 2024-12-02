@@ -1,5 +1,5 @@
-import { themeVars } from '$lib/styles/themes/theme.css';
-import { vars } from '$lib/styles/vars.css';
+import { themeVars } from '../lib/styles/themes/theme.css';
+import { vars } from '../lib/styles/vars.css';
 import { style } from '@vanilla-extract/css';
 
 const {
