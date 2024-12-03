@@ -4,12 +4,14 @@
 	import { winterTheme } from '$lib/styles/themes/winterTheme.css';
 	import { container, content } from './Card.css';
 
-	$: themeIsSummer = $theme === 'summer';
-	$: contentStyle = `${content}  ${themeIsSummer ? summerTheme : winterTheme}`;
+	let { children } = $props();
+
+	let themeIsSummer = $derived($theme === 'summer');
+	let contentStyle = $derived(`${content}  ${themeIsSummer ? summerTheme : winterTheme}`);
 </script>
 
 <section class={container}>
 	<div class={contentStyle}>
-		<slot />
+		{@render children?.()}
 	</div>
 </section>
